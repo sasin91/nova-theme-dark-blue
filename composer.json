@@ -1,0 +1,29 @@
+{
+    "name": "sasin91/nova-theme-dark-blue",
+    "description": "A soothing dark theme for Laravel Nova.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sasin91\\NovaThemeDarkBlue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sasin91\\NovaThemeDarkBlue\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
